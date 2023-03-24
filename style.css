@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(24, 24, 24, 1);
+}
+
+.w {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 985px;
+  height: 830.52px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 52px;
+  line-height: 62px;  
+  letter-spacing: 0.2px;
+}
+
+.p1 {
+ color: rgba(255, 255, 255, 1);
+ font-size: 20px;
+ line-height: 30px;
+ letter-spacing: 0.2px;
+ margin-top: 20px;
+}
+
+.cards {
+  padding-top: 54px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 476px;
+  height: 624.52px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(211, 211, 211, 1);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+h2 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.p2 {
+  margin-top: 30px;
+  color: rgba(92, 92, 92, 1);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+button {
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  background: rgba(68, 82, 254, 1);
+  box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  height: 52px;
+}
+
+.button1 {
+  width: 157px;
+  margin-top: 67px;
+}
+
+.button2 {
+  width: 190px;
+  margin-top: 40px;
+}
+
+.img1 {
+  padding-top: 57px;
+  display: flex;
+  justify-content: center;
+}
+
+.img2 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.macbookpro {
+  background-image: url(images/macbookpro.png);
+  width: 405.12px;
+  height: 226.52px;
+}
+
+.board {
+  background-image: url(images/board.png);
+  background-size: cover;
+  width: 379px;
+  height: 276px;
+  border-radius: 14px;
+}
+
